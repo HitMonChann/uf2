@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+	 initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>INFORMATE. TU CANAL  DE PODCASTS</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="app.js"></script>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<nav class="menu">
+				<a href="#acercade">Acerca de</a>
+				<a href="#podcasts">Trabajos</a>
+				<a href="#contac">Contacto</a>
+			</nav>
+
+			<div class="contenedor-texto">
+				<div class="texto">
+					<h1 class="nombre">Manuel Sanchez Sicilia</h1>
+					<h2 class="profesion">Desarrollador Web</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="main">
+		<section class="acerca-de" id="acercade">
+			<div class="contenedor">
+				<div class="foto">
+					<img src="img/avatar.jpg" width="115" height="115" alt="Carlos Arturo">
+				</div>
+				<div class="texto">
+					<h3 class="titulo">Acerca de como hemos realizado el trabajo</h3>
+					<p>Para realizar la grabación del podcast he usado la herramienta llamada Audacity y la ayuda de un tutorial.
+						El audio se compone de varias partes como son una musica de introducción la cual he tenido que editar dentro
+						de audacity para que entre poco a poco y no de golpe. Una presentación editada tambien con un efecto de un poco de eco,
+						la noticia que es introducida con una bajada de musica y esta sin musica de fondo para centrar la atencion del oyente solo en lo que nos interesa.
+						Despues de la noticia viene la despedida que tambien se ha editado con musica, subidas, bajadas, para intentar hacerlo lo mas llamativo posible.
+						Y por ultimo otra pista de audio que es una musica de despedida.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="trabajos" id="podcasts">
+			<div class="contenedor">
+				<h3 class="titulo">PODCASTS</h3>
+				<div class="contenedor-trabajos">
+					<div class="trabajo">
+						<div class="thumb">
+							<img src="img/trabajos/1.jpg" alt="Lorem Ipsum">
+						</div>
+						<div class="descripcion">
+								<audio id="audio" preload="auto" tabindex="0" controls="" >
+										<source src="PodcatManuelSanchezSicilia.mp3">
+									  </audio>
+									  <ul id="playlist">
+											  <li class="active">
+												 <a href="PodcatManuelSanchezSicilia.mp3">
+												   Ultima Noticia Del Universo
+												 </a>
+											  </li>
+										  </ul>
+							<p class="nombre">PODCAST</p>
+							<p class="categoria">CIENCIA</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<footer>
+		<section class="contacto" id="contac">
+			<div class="contenedor">
+				<h3 class="titulo">Contacto</h3>
+					<form class="formulario" action="">
+						<input type="text" placeholder="Nombre" name="nombre" required>
+						<input type="email" placeholder="Correo" name="correo" required>
+						<textarea name="mensaje" placeholder="Mensaje:"></textarea>
+						<input class="boton" type="submit" value="Enviar">
+
+					</form>
+			</div>
+		</section>
+
+		<section class="redes-sociales">
+			<div class="contenedor">
+				<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+				<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+				<a href="#" class="youtube"><i class="fa fa-youtube-play"></i></a>
+				<a href="#" class="github"><i class="fa fa-github"></i></a>
+				<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+			</div>
+		</section>
+
+	</footer>
+</body>
+</html>
